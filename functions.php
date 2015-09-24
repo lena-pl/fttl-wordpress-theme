@@ -42,6 +42,8 @@ function lena_fttl_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
+	set_post_thumbnail_size( 1800, 400, true );
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'lena_fttl' ),

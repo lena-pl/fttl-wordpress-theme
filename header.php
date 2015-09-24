@@ -36,8 +36,19 @@
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'lena_fttl' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+			<div class="top-nav"><?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?></div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<?php
+		if ( has_post_thumbnail() ) {
+		    // the current post has a thumbnail
+		    echo '<div class="feature-image">';
+		    the_post_thumbnail();
+		    echo '</div>';
+		} else {
+		    // the current post lacks a thumbnail
+		}
+	?>
 
 	<div id="content" class="site-content">
