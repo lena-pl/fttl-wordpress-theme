@@ -551,6 +551,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	letter-spacing: 0.15em;
 }
 
 .main-navigation a {
@@ -608,6 +609,27 @@ a:active {
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
+}
+
+@media screen and (min-width: 49em) {
+	.main-navigation ul a:hover:after,
+	.main-navigation ul a:focus:after,
+	.main-navigation ul .current-menu-item a:after,
+	.main-navigation ul .current-menu-item a:hover:after {
+		content: " ";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: -50px;
+		background-image: url(images/triangle-selector.png);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.main-navigation ul .current-menu-item a:after {
+		background-image: url(images/triangle-selector-active.png);
+	}
 }
 
 /* Small menu. */
