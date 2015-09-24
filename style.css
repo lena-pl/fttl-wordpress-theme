@@ -940,3 +940,18 @@ header p {
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+
+.site-footer {
+	background-color: #131f2d;
+	color: #FFF;
+}
+
+.footer-content {
+	max-width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
+}

@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 
-		<div>
+		<div class="footer-content">
 			<p>New footer!</p>
 		</div>
 
