@@ -51,10 +51,12 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	height: 100%;
 }
 
 body {
 	margin: 0;
+	height: 100%;
 }
 
 article,
@@ -285,6 +287,15 @@ h4,
 h5,
 h6 {
 	clear: both;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #c5c2c2;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 20px;
 }
 
 p {
@@ -900,6 +911,7 @@ object {
 
 header img {
 	max-height: 100px;
+	max-width: 220px;
 	display: inline-block;
 	margin-top: 15px;
 	margin-bottom: 0;
@@ -929,6 +941,16 @@ header p {
 
 .address {
 	float: right;
+	margin-bottom: 20px;
+}
+
+.top-nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.feature-image {
+	margin-top: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -936,9 +958,14 @@ header p {
 --------------------------------------------------------------*/
 
 .site-content {
+	min-height: 100%;
 	max-width: 960px;
 	padding: 0 15px;
-	margin: 0 auto;
+	margin: 20px auto -155px;
+}
+
+#page {
+	height: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -948,6 +975,10 @@ header p {
 .site-footer {
 	background-color: #131f2d;
 	color: #FFF;
+}
+
+.site-footer, .push {
+	height: 155px; /* '.push' must be the same height as 'footer' */
 }
 
 .footer-content {

@@ -10,6 +10,7 @@
  */
 
 ?>
+	<div class="push"></div>
 
 	</div><!-- #content -->
 
