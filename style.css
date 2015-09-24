@@ -616,6 +616,39 @@ a:active {
 	display: block;
 }
 
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.menu-toggle {
+	margin-left: 18px;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	background: #131f2d;
+	color: #fff;
+	border: none;
+	border color: none;
+	box-shadow: none;
+	text-transform: uppercase;
+}
+
+.menu-toggle:hover {
+	background: #131f2d;
+	color: rgba(102, 100, 100, 1);
+	border: none;
+	border color: none;
+	box-shadow: none;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+
+.menu-toggle:focus {
+	box-shadow: none;
+}
+
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
