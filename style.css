@@ -900,8 +900,8 @@ object {
 
 header img {
 	max-height: 100px;
-	max-width: 400px;
 	display: inline-block;
+	margin-top: 15px;
 	margin-bottom: 0;
 }
 
@@ -921,6 +921,22 @@ header p {
 	margin-bottom: 0;
 }
 
+.site-branding {
+	max-width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
 .address {
 	float: right;
+}
+
+/*--------------------------------------------------------------
+## Main Content
+--------------------------------------------------------------*/
+
+.site-content {
+	max-width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
