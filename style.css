@@ -546,12 +546,20 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+	text-align: center;
 }
 
 .main-navigation li {
-	float: left;
+	display: inline-block;
 	position: relative;
 	letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 37.5em) {
+	.main-navigation ul li {
+		display: block;
+		text-align: left;
+	}
 }
 
 .main-navigation a {
