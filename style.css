@@ -1007,6 +1007,34 @@ header p {
 	margin-top: 5px;
 }
 
+.heading-highlight {
+    max-width: 620px;
+    text-align: center;
+    background-color: rgba(102, 100, 100, 0.5);
+    margin: 0 auto 30px auto;
+    padding: 10px 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 0.5px #666464;
+}
+
+
+
+h3 {
+	font-size: 35px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 ## Main Content
 --------------------------------------------------------------*/
