@@ -15,6 +15,8 @@ This theme does not display page titles as headings. Please write your own headi
 
 This theme is designed for websites, not blogs, so styling may be missing for some post features.
 
+When using the callout header class, please apply class "heading-highlight" to the div you would like to be affected and use h3, h4 a p tags to style internal content. This callout will appear under the header image on small screens and overlayed over the header image on large screens.
+
 ## Status
 
 This theme is still incomplete. I am working on it and adding more features every day.
