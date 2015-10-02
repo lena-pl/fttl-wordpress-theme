@@ -1064,20 +1064,249 @@ h4 {
 }
 
 .site-footer, .push {
-	height: 155px; /* '.push' must be the same height as 'footer' */
-}
-
-.site-footer form input, textarea {
-    border: 1px solid #131f2d;
-    color: #131f2d;
-    border-radius: 3px;
-    display: block;
-    margin: 5px 0 27px 0;
-    padding: 5px 8px;
+	height: 460px; /* '.push' must be the same height as 'footer' */
 }
 
 .footer-content {
 	max-width: 960px;
-	padding: 0 15px;
+	padding: 15px 0;
 	margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+	font: 300 16px/22px;
+	color: #131f2d;
+}
+
+#enquiries input,
+#enquiries select,
+#enquiries textarea {
+	border: 1px solid #131f2d;
+	color: #131f2d;
+	border-radius: 3px;
+	display: block;
+	margin: 5px 0 27px 0;
+	padding: 5px 8px;
+}
+
+#enquiries input,
+#enquiries textarea {
+	width: 100%;
+}
+
+#enquiries select {
+	height: 34px;
+	width: 60px;
+}
+
+#enquiries textarea {
+  height: 78px;
+}
+
+#enquiries .button {
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 0.5px;
+	margin: 10px 0 0 0;
+	text-transform: uppercase;
+	color: #131f2d;
+	font-weight: 600;
+}
+
+#enquiries .danger {
+	display: block;
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.enquiries-name {
+	background-image: url(../images/form-name-white.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin: 0 3px 0 3px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.enquiries-email {
+	background-image: url(../images/form-email-white.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin: 0 3px 0 3px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.enquiries-message {
+	background-image: url(../images/form-message-white.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	margin: 0 3px 0 3px;
+	color: #fff;
+	font-weight: 300;
+}
+
+#enquiries .field {
+	position: relative;
+}
+
+/*
+  ========================================
+  Footer Find Us
+  ========================================
+*/
+
+.find-us {
+	margin-bottom: 33px;
+}
+
+.social {
+	position: absolute;
+	bottom: -20px;
+	left: -10px;
+}
+
+.social img {
+	margin: 0 5px;
+}
+
+.social a {
+	display: inline-block;
+}
+
+/*
+  ========================================
+  Footer Site Map
+  ========================================
+*/
+
+.site-map {
+	text-align: right;
+}
+
+.site-map ul a {
+	font-variant: small-caps;
+}
+
+.site-map a:hover {
+	color: rgba(102, 100, 100, 1);
+}
+
+.site-map ul li {
+	list-style-type: none;
+}
+
+.site-map ul {
+	padding: 10px 0;
+}
+
+#container .html-map ol {
+	margin-bottom: 100px;
+}
+
+.html-map a {
+	color: #000;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+.html-map a:hover {
+	text-decoration: none;
+}
+
+.html-map li {
+	margin: 7px 0;
+	list-style-type: none;
+}
+
+.html-map ul li {
+	margin-left: 25px;
+}
+
+
+/*
+  ========================================
+  Footer Back to Top
+  ========================================
+*/
+
+.back-to-top {
+	position: absolute;
+	bottom: -20px;
+	right: -10px;
+}
+
+.back-to-top a:hover {
+	color: rgba(102, 100, 100, 1);
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+[class*='col-'] {
+	margin: 0 10px;
+	float: left;
+	min-height: 1px;
+	position: relative;
+}
+
+.col-row {
+	margin: 0;
+}
+
+.col-1 {
+	width: 60px;
+}
+
+.col-2 {
+	width: 140px;
+}
+
+.col-3 {
+	width: 220px;
+}
+
+.col-4 {
+	width: 300px;
+}
+
+.col-5 {
+	width: 380px;
+}
+
+.col-6 {
+	width: 460px;
+}
+
+.col-7 {
+	width: 540px;
+}
+
+.col-8 {
+	width: 620px;
+}
+
+.col-9 {
+	width: 700px;
+}
+
+.col-10 {
+	width: 780px;
+}
+
+.col-11 {
+	width: 860px;
+}
+
+.col-12 {
+	width: 940px;
 }
