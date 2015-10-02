@@ -1067,6 +1067,15 @@ h4 {
 	height: 155px; /* '.push' must be the same height as 'footer' */
 }
 
+.site-footer form input, textarea {
+    border: 1px solid #131f2d;
+    color: #131f2d;
+    border-radius: 3px;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
 .footer-content {
 	max-width: 960px;
 	padding: 0 15px;
