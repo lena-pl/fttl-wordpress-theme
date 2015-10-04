@@ -84,9 +84,9 @@
 				             --><li><a href="bookings.html">bookings</a></li><!--
 				             --><li><a href="sitemap.html#photo-credits">photo credits</a></li>
 							</ul>
-							<h4 class="back-to-top"><a href="#">Back to top</a></h4>
 						</div>
 					</div>
+					<h4 class="back-to-top"><a href="#">Back to top</a></h4>
 
 				</div>
 			</div>

@@ -1160,6 +1160,33 @@ textarea {
 	position: relative;
 }
 
+.enquiries-name {
+    background-image: url(images/form-name-white.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin: 0 3px 0 3px;
+}
+
+.enquiries-email {
+    background-image: url(images/form-email-white.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin: 0 3px 0 3px;
+}
+
+.enquiries-message {
+    background-image: url(images/form-message-white.png);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin: 0 3px 0 3px;
+}
+
+.back-to-top {
+	position: absolute;
+	bottom: -20px;
+	margin-right: 18px;
+}
+
 /*
   ========================================
   Footer Find Us
